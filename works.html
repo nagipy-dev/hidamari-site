@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>施工事例｜ひだまり住まい工房</title>
+  <meta name="description" content="リフォーム・注文住宅の施工事例をご紹介します。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="header">
+    <div class="header__inner">
+      <a class="logo" href="index.html">
+        <svg class="logo__mark" viewBox="0 0 32 32" aria-hidden="true">
+          <circle cx="16" cy="11" r="5" fill="#d9a441"/>
+          <path d="M4 28 L16 17 L28 28" fill="none" stroke="#8a5a3b" stroke-width="2.4" stroke-linejoin="round"/>
+          <path d="M9 28 V23.5 M23 28 V23.5" stroke="#8a5a3b" stroke-width="2.4"/>
+        </svg>
+        <span class="logo__name">ひだまり住まい工房<span class="logo__sub">リフォーム・注文住宅</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="visually-hidden">メニューを開く</span>
+      </button>
+      <nav class="nav" id="nav" aria-label="メインメニュー">
+        <ul class="nav__list">
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="service.html">事業内容</a></li>
+          <li><a href="works.html" aria-current="page">施工事例</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li><a class="nav__cta" href="contact.html">無料相談</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-header">
+      <div class="container">
+        <ol class="breadcrumb" aria-label="現在地">
+          <li><a href="index.html">トップ</a></li>
+          <li aria-current="page">施工事例</li>
+        </ol>
+        <p class="eyebrow">WORKS</p>
+        <h1 class="page-header__title">施工事例</h1>
+        <p class="page-header__lead">これまでに手がけた住まいの一部をご紹介します。写真を押すと、大きく表示できます。</p>
+      </div>
+    </div>
+
+    <section class="section" aria-label="施工事例の一覧">
+      <div class="container">
+        <div class="filters" role="group" aria-label="種類で絞り込む">
+          <button class="filter" type="button" data-filter="all" aria-pressed="true">すべて</button>
+          <button class="filter" type="button" data-filter="reform" aria-pressed="false">リフォーム</button>
+          <button class="filter" type="button" data-filter="house" aria-pressed="false">注文住宅</button>
+        </div>
+        <p class="works-count" id="works-count" aria-live="polite">5件の事例を表示しています</p>
+        <ul class="works">
+          <li class="work reveal" data-type="reform">
+            <button class="work__button" type="button" aria-label="ロフトのある、木のキッチンの写真を拡大する">
+              <img src="images/case-kitchen.jpg" alt="ロフトと階段のある、木の内装のキッチン" width="933" height="1400" loading="lazy">
+            </button>
+            <div class="work__meta">
+              <p class="work__tag">リフォーム</p>
+              <h2 class="work__title">ロフトのある、木のキッチン</h2>
+              <p class="work__text">使われていなかった屋根裏をロフトにし、キッチンと階段を一体でつくりかえました。</p>
+            </div>
+          </li>
+          <li class="work reveal" data-type="house">
+            <button class="work__button" type="button" aria-label="吹き抜けに、光が届くリビングの写真を拡大する">
+              <img src="images/case-stairs.jpg" alt="木の階段と梁のある、明るい吹き抜けのリビング" width="933" height="1400" loading="lazy">
+            </button>
+            <div class="work__meta">
+              <p class="work__tag">注文住宅</p>
+              <h2 class="work__title">吹き抜けに、光が届くリビング</h2>
+              <p class="work__text">天窓からの光が、ひのきの階段を伝って1階まで届きます。</p>
+            </div>
+          </li>
+          <li class="work reveal" data-type="reform">
+            <button class="work__button" type="button" aria-label="築80年の古民家を、住みつぐの写真を拡大する">
+              <img src="images/case-rustic.jpg" alt="木の壁と格子窓のある、古い家の一室" width="933" height="1400" loading="lazy">
+            </button>
+            <div class="work__meta">
+              <p class="work__tag">リフォーム</p>
+              <h2 class="work__title">築80年の古民家を、住みつぐ</h2>
+              <p class="work__text">太い柱や格子窓はそのままに、断熱と水まわりを新しくしました。</p>
+            </div>
+          </li>
+          <li class="work reveal" data-type="house">
+            <button class="work__button" type="button" aria-label="林を眺める、三角屋根の家の写真を拡大する">
+              <img src="images/hero.jpg" alt="大きな窓から林が見える、三角屋根の木の部屋" width="933" height="1400" loading="lazy">
+            </button>
+            <div class="work__meta">
+              <p class="work__tag">注文住宅</p>
+              <h2 class="work__title">林を眺める、三角屋根の家</h2>
+              <p class="work__text">大きな窓を林に向けて開き、季節の移ろいを感じられる平屋にしました。</p>
+            </div>
+          </li>
+          <li class="work reveal" data-type="house">
+            <button class="work__button" type="button" aria-label="建築中：木の骨組みが見える現場の写真を拡大する">
+              <img src="images/case-beams.jpg" alt="柱が並ぶ、建築中の木造住宅の廊下" width="933" height="1400" loading="lazy">
+            </button>
+            <div class="work__meta">
+              <p class="work__tag">注文住宅</p>
+              <h2 class="work__title">建築中：木の骨組みが見える現場</h2>
+              <p class="work__text">県内産の杉の柱を使った、建築中の住まいです。完成見学会を予定しています。</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="施工事例の写真" hidden>
+      <figure class="lightbox__figure">
+        <img src="" alt="">
+        <figcaption class="lightbox__caption"><span class="lightbox__counter"></span><span class="lightbox__text"></span></figcaption>
+      </figure>
+      <button class="lightbox__button lightbox__close" type="button" aria-label="閉じる">×</button>
+      <button class="lightbox__button lightbox__prev" type="button" aria-label="前の写真">←</button>
+      <button class="lightbox__button lightbox__next" type="button" aria-label="次の写真">→</button>
+    </div>
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="container">
+        <h2 class="cta__title" id="cta-title">家づくりのご相談は、<br class="sp-break">お気軽にどうぞ。</h2>
+        <p class="cta__text">「まだ何も決まっていない」という段階でも大丈夫です。</p>
+        <div class="cta__actions">
+          <a class="cta__tel" href="tel:0000000000"><small>お電話（9:00〜18:00／水曜定休）</small>000-000-0000</a>
+          <a class="button button--light" href="contact.html">フォームで相談する</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <a class="logo" href="index.html">
+        <svg class="logo__mark" viewBox="0 0 32 32" aria-hidden="true">
+          <circle cx="16" cy="11" r="5" fill="#d9a441"/>
+          <path d="M4 28 L16 17 L28 28" fill="none" stroke="#8a5a3b" stroke-width="2.4" stroke-linejoin="round"/>
+          <path d="M9 28 V23.5 M23 28 V23.5" stroke="#8a5a3b" stroke-width="2.4"/>
+        </svg>
+        <span class="logo__name">ひだまり住まい工房<span class="logo__sub">リフォーム・注文住宅</span></span>
+      </a>
+          <address class="footer__address">〒000-0000 ひだまり市 木立町1-2-3<br>TEL 000-000-0000（9:00〜18:00／水曜定休）</address>
+        </div>
+        <nav aria-label="フッターメニュー">
+          <ul class="footer__nav">
+            <li><a href="index.html">トップ</a></li>
+            <li><a href="works.html">施工事例</a></li>
+            <li><a href="service.html">事業内容</a></li>
+            <li><a href="company.html">会社概要</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p>このサイトはポートフォリオ用の見本です。会社・住所・電話番号は実在しません。写真：Unsplash</p>
+        <p>&copy; <span class="js-year">2026</span> Hidamari Sumai Kobo</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
